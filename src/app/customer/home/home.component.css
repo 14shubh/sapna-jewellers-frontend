@@ -4,20 +4,21 @@
   }
 
   to {
-    background-position: center 800%;
+    background-position: center 500%;
   }
 }
 .text h1 {
   margin: 60;
-  font-size: 108px;
+  font-size: 80px;
   font-weight: 900;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: white;
-  background: url("../../../assets/images/rings_banner.png");
-  background-size: auto 200%;
-  /* -webkit-background-clip: text; */
+  background: url("../../../assets/images/home_banner.png");
+  /*background-size: auto 200%;
+  */-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 8s linear infinite;
+  -webkit-animation: shine 8s linear infinite;
 }
 .banner{
   background: linear-gradient( rgba(0, 0, 0, 0.201),rgba(0, 0, 0, 0.626),rgba(0, 0, 0, 0.963),rgba(0, 0, 0, 0.863)),url('../../../assets/images/home_banner.png');
