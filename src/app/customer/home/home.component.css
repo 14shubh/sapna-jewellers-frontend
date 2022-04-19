@@ -15,7 +15,7 @@
   color: white;
   background: url("../../../assets/images/rings_banner.png");
   background-size: auto 200%;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   animation: shine 8s linear infinite;
 }
